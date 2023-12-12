@@ -1,0 +1,32 @@
+apiVersion: v1
+entries:
+  coupon:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-12-12T23:46:07.32307205Z"
+    dependencies:
+    - name: mysql
+      repository: '@bitnami'
+      version: 9.1.4
+    description: A Helm chart for Kubernetes
+    digest: 8d7b767fd1b3f4e7250d82434e83012d6aa16e25db52ce6a872a5eeb0a77e86b
+    name: coupon
+    type: application
+    urls:
+    - coupon-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-12-12T23:46:07.32794886Z"
+    dependencies:
+    - name: mysql
+      repository: '@bitnami'
+      version: 9.1.4
+    description: A Helm chart for Kubernetes
+    digest: 8d7b767fd1b3f4e7250d82434e83012d6aa16e25db52ce6a872a5eeb0a77e86b
+    name: coupon
+    type: application
+    urls:
+    - helm_repo_test/coupon-0.2.0.tgz
+    version: 0.2.0
+generated: "2023-12-12T23:46:07.317124751Z"
